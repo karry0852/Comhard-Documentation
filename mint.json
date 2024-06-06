@@ -1,20 +1,20 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
-  "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
-  },
+
+  "name": "Comhard",
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
+    "primary": "#6d0dc7",
+    "light": "#b681e7",
     "dark": "#0D9373",
     "anchors": {
       "from": "#0D9373",
       "to": "#07C983"
     }
   },
+  "modeToggle": {
+    "default": "light"
+  },  
   "topbarLinks": [
     {
       "name": "Support",
@@ -88,4 +88,5 @@
     "github": "https://github.com/mintlify",
     "linkedin": "https://www.linkedin.com/company/mintsearch"
   }
+
 }
