@@ -29,6 +29,10 @@
     {
       "name": "API Reference",
       "url": "api-reference"
+    },
+    {
+      "name": "Admin Portal Demo",
+      "url": "demo"
     }
   ],
   "anchors": [
@@ -72,6 +76,12 @@
       "group": "API Documentation",
       "pages": [
         "api-reference/introduction"
+      ]
+    },
+    {
+      "group": "Demo",
+      "pages": [
+        "demo/introduction"
       ]
     },
     {
