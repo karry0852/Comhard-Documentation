@@ -30,21 +30,51 @@
     {
       "group": "",
       "pages": [
-        "introduction",
+        { "group": "Introduction",
+        "pages":["introduction/introduction","introduction/features"]
+      },
         { "group": "Getting Started",
-          "pages":["getting-started/setup_account","getting-started/onboarding_process"]
+          "pages":[
+            "getting-started/setup_account",
+            "getting-started/onboarding_process",
+            "getting-started/install_exes",
+            "getting-started/data_upload",
+            "getting-started/license_reactivation",
+            "getting-started/export_documents",
+            "getting-started/printing"
+          ]
         },
-        "Guides",
-        "Troubleshooting",
-        "Integration",
-        "Security",
-        "Backups",
-        "FAQs",
-        "Contact Support",
-        "Updates and Releases",
-        "Community and Resources",
-        "Feedback and Suggestions",
-        "Appendix"
+        { "group": "Guides",
+        "pages":[
+          {
+            "group":"Admin Guide",
+            "pages":[
+              "guides/admin_guide/user_management",
+              "guides/admin_guide/live_status",
+              "guides/admin_guide/app_management",
+              "guides/admin_guide/logs_management",
+              "guides/admin_guide/file_manager"
+              ]
+          },{
+            "group":"User Guide",
+            "pages":[
+              "guides/user_guide/login"
+              ]
+            },
+            "guides/raise_service",
+            "guides/account_management",
+            "guides/reset_password"
+          ]
+      },
+        "troubleshooting",
+        "integration",
+        "security",
+        "backups",
+        "faqs",
+        "contact_and_support",
+        "updates_and_release",
+        "community_and_resouces",
+        "feedback_and_suggestions"
       ]
       
     }
