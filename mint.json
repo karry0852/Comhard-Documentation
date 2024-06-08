@@ -52,7 +52,15 @@
               "guides/admin_guide/user_management",
               "guides/admin_guide/live_status",
               "guides/admin_guide/app_management",
-              "guides/admin_guide/logs_management",
+              {
+                "group":"Logs Management",
+                "pages":[
+                  "guides/admin_guide/log_management/logs_management",
+                  "guides/admin_guide/log_management/user_logs_management",
+                  "guides/admin_guide/log_management/audit_logs_management"
+
+                  ]
+              },
               "guides/admin_guide/file_manager"
               ]
           },{
