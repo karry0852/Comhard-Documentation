@@ -2,9 +2,8 @@
 title: "FAQ's"
 ---
 
-## Differnce between Remote Login and HTML Login
-
-
+<Accordion title="Differnce between Remote Login and HTML Login">
+  
 | Category                                | Remote Login   | HTML Login |
 | --------------------------------------- | -------------- | ---------- |
 | Setup file is required                  | Yes            | No         |
@@ -16,96 +15,110 @@ title: "FAQ's"
 | Digital Signature                       | Yes            | No         |
 | Export from Tally to Local              | Yes            | No         |
 | Mac Login                               | No             | Yes        |
+</Accordion>
 
-
-## What's Auto Logoff  & why does it happen ?
+<Accordion title="What's Auto Logoff  & why does it happen ?">
 
 Auto Logout may happens due to below given reasons:
 
 * Tally Left idle for 20 mins by the user
 * Local internet ping is getting dropped
+    <Accordion title="Tally Left idle for 20 mins by the user">
 
-### Tally Left idle for 20 mins by the user
+    If you are not working in the cloud Tally but it is logged in and kept idle for 18 mins then you will receive the popup on your screen that “Your session will be disconnected within 2mins”. (20 mins idle time has been set in the server due to security purpose)
+    </Accordion>
 
-If you are not working in the cloud Tally but it is logged in and kept idle for 18 mins then you will receive the popup on your screen that “Your session will be disconnected within 2mins”. (20 mins idle time has been set in the server due to security purpose)
+    <Accordion title="Local Internet Ping is getting dropped">
 
-### Local Internet Ping is getting dropped
+    If the session is logged out automatically and in your screen you are getting the popup “Trying to reconnect” , Or session is logged out and after sometime when you try to login then it gets logged in.
 
-If the session is logged out automatically and in your screen you are getting the popup “Trying to reconnect” , Or session is logged out and after sometime when you try to login then it gets logged in.
+    Note: Check your Local internet connectivity by below steps:
 
-Note: Check your Local internet connectivity by below steps:
+    * Click on Win+ R key
+    * Type CMD then OK option
+    * Command Prompt will open type the command : `ping google.com -t` (This will show the network connectivity of your Local internet ) Check the frequency and fluctuations of internet speed
 
-* Click on Win+ R key
-* Type CMD then OK option
-* Command Prompt will open type the command : `ping google.com -t` (This will show the network connectivity of your Local internet ) Check the frequency and fluctuations of internet speed
+    If there is any **Request Time Out** (This means there is internet break for fractions of seconds at that time auto logout definitely take place because you are working on cloud services) connect with you Internet Service Provider for better internet services.
+    </Accordion>
+</Accordion>
 
-If there is any **Request Time Out** (This means there is internet break for fractions of seconds at that time auto logout definitely take place because you are working on cloud services) connect with you Internet Service Provider for better internet services.
-
-## How can third-party applications be employed within a cloud infrastructure ?
-
+<Accordion title="How can third-party applications be employed within a cloud infrastructure ?">
 To use 3rd Party Application in the cloud there are 2 ways :
 
 * You can Sync the Application via IP and the Port with the Tally **(which will be provided by Support Team)**
 * Application can be hosted on the cloud
 
 <Note> If the Application has to be hosted for that you need to connect with your Account Manager and this will be chargeable service.</Note>
+</Accordion>
 
-## What does the Backup Policy entail ?
-
+<Accordion title="What does the Backup Policy entail ?">
 Our company offers a backup retention period of the **last 7 days**.
 
 * If the backup is required you can also take the backup at your own by coping & pasting the data from cloud to local
 
 * For backup you send the mail to the Support Team `support@comhard.co.in` from your registered e-mail id
+</Accordion>
 
-## Is it possible to modify the registered email address and phone number ?
-
+<Accordion title="Is it possible to modify the registered email address and phone number ?">
 To update your registered email address and phone number, kindly send an email from your currently registered email address to our Accounts Team at `accounts1@comhard.co.in`.
+</Accordion>
 
-## What information is displayed by the status indicator on the dashboard ?
+<Accordion title="What information is displayed by the status indicator on the dashboard ?">
 The status on the dashboard indicates whether the user is currently logged in or logged out.
+</Accordion>
 
-## Is it possible to utilize Cloud services in various countries ?
+<Accordion title="Is it possible to utilize Cloud services in various countries ?">
 Yes, CoCloud services are globally accessible, enabling usage in any country.
+</Accordion>
 
-## Is it possible to utilize multiple Tally tabs within Cloud ?
+<Accordion title="Is it possible to utilize multiple Tally tabs within Cloud ?">
+Yes, CoCloud services are globally accessible, enabling usage in any country.
 Yes, you can use multiple Tally tabs in CoCloud. However, there are some conditions:
 
 * By default, access to multiple Tally tabs is granted to the Admin user across all plans.
 * For users with the Advance Plan, we extend Multiuser Tab access to all users.
+</Accordion>
 
-## What is Power User ?
+<Accordion title="What is Power User ?">
 Power users possess additional privileges compared to other users. For e.g. :
 
 * They can open multiple Tally tabs.
 * They have access to a Floating Panel feature.
+</Accordion>
 
-## What is Floating Panel ?
-
+<Accordion title="What is Floating Panel ?">
 The Floating Panel is a compact interface that includes quick access options such as the Tally icon, Data Folder, Export Folder, and Logout option.
 
 Typically, it's available to the Admin user by default. For users other than Admin (excluding Advance Plan users), obtaining access to the Floating Panel requires contacting the Account Manager, and this may involve additional charges.
 
 The benefits of the Floating Panel include the ability to open multiple Tally tabs and to reopen Tally, Data Folder, and Export Folder at any time without the need to re-login.
 
-## What steps should be taken when the trial or subscription has expired ?
+</Accordion>
+
+<Accordion title="What steps should be taken when the trial or subscription has expired ?">
 To renew your account after the trial or subscription has expired, please reach out to your Account Manager to arrange payment and reactivate your account.
 
-## How can data be accessed when the Cloud subscription has expired ?
+</Accordion>
+
+<Accordion title="How can data be accessed when the Cloud subscription has expired ?">
 For data retrieval when the Cloud subscription has expired, it's advisable to contact your Account Manager to discuss data backup options.
 
-## Is it possible to increase the user limit after the renewal process?
-Yes, the user limit can be increased (added) at any time through the User Management option available in the customer portal. However, it's important to note that the  `user limit cannot be decreased (reduced) at any time.` Decreasing the limit is only feasible at the time of renewal.
+</Accordion>
 
-## What steps should be taken if the OTP is not received on either the mobile or email address ?
+<Accordion title="Is it possible to increase the user limit after the renewal process?">
+Yes, the user limit can be increased (added) at any time through the User Management option available in the customer portal. However, it's important to note that the  `user limit cannot be decreased (reduced) at any time.` Decreasing the limit is only feasible at the time of renewal.
+</Accordion>
+
+<Accordion title="What steps should be taken if the OTP is not received on either the mobile or email address ?">
 At times, users may encounter issues with receiving OTPs on their mobile numbers. This could occur due to the following reasons:
 
 - Inadvertently entering a space at the beginning or end of the mobile number.
 - The mobile number may not be within network coverage.
 - Similarly, entering a space at the beginning or end of the email ID.
 - Spelling errors in the email ID.
+</Accordion>
 
-## What exactly is a "Ping Drop," and how can one determine if it has occurred ?
+<Accordion title="What exactly is a 'Ping Drop', and how can one determine if it has occurred ?">
 **Ping Drop** signifies a momentary disruption in internet service. This interruption can occur for a brief period or extend for a longer duration. If ping drops occur momentarily, it may lead to auto logoff issues for cloud users. However, if the drop persists for an extended period, users may be unable to log in altogether.
 
 To assess local internet connectivity (ping), follow these steps:
@@ -118,9 +131,9 @@ To assess local internet connectivity (ping), follow these steps:
 If you encounter a single **Request Time Out**, it indicates a momentary internet disruption leading to potential auto logout due to cloud service usage. Continual occurrences of **Request Time Out** suggest inadequate internet functionality.
 
 To resolve such issues, contact your Internet Service Provider for improved internet services.
+</Accordion>
 
-## How can one verify the resources of the local system, including CPU, RAM, and storage ?
-
+<Accordion title="How can one verify the resources of the local system, including CPU, RAM, and storage ?">
 To verify your local system resources, adhere to these steps:
 
 - Right-click on the `Taskbar`.
@@ -129,13 +142,15 @@ To verify your local system resources, adhere to these steps:
 - Click on the `Performance tab` within the dialog box.
 
 From here, you can examine your local system resources, including CPU, RAM, and storage, among others.
+</Accordion>
 
-## What constitutes a Concurrency Issue ?
+<Accordion title="What constitutes a Concurrency Issue ?">
 When two or more users are working on the same company and one of the user has started any heavy work `(Exporting / Importing / Data Syncing etc.)` in one of the Tally Company and any other user also started to work on the same Tally Company at that time all all the users who are working on that same company will face the slowness or lagging. This kind of the Lagging is called as Concurrency . 
 
 Once the heavy work is finished then the service will be normal for all the users. To resolve this Concurrency Issue we provide Tally server 9 This helps all users to fetch the same data via Multi threading.
+</Accordion>
 
-## Difference between Hanging of Cloud & Hanging of Tally
+<Accordion title="Difference between Hanging of Cloud & Hanging of Tally">
 
 | Category                                          | Cloud | Tally | Local |
 |---------------------------------------------------|-------|-------|-------|
@@ -148,9 +163,9 @@ Once the heavy work is finished then the service will be normal for all the user
 | Multiple Line of Item                             | NO    | YES   | NO    |
 | Mav Error                                         | NO    | YES   | NO    |
 | While Syncing the Data with 3rd Party app         | NO    | YES   | NO    |
+</Accordion>
 
-
-## What might cause difficulty in logging in ?
+<Accordion title="What might cause difficulty in logging in ?">
 * Assess your local internet ping.
 * Verify the installation of setup files.
 * Confirm whether the user is already logged in using the Force Logout option.
@@ -158,15 +173,9 @@ Once the heavy work is finished then the service will be normal for all the user
 * Verify if pop-ups are not blocked in the browser.
 * If the Remote Login or HTML Login page is buffering, refresh the page by pressing `Ctrl + Shift + R`.
 * Address potential IP blocks, which may occur due to incorrect login attempts or server security measures against ransomware attacks. To resolve, consider rebooting the router and attempting login again.
+</Accordion>
 
-## What's Force Logout ?
+<Accordion title="What's Force Logout ?">
 This option can be used to Logout the User if they were already Logged in (not properly logged out) and now unable to login .
+</Accordion>
 
-{/* <ResponseField name="What's Force Logout ?" >
-  <Expandable title="What's Force Logout ?">
-  
-    <ResponseField >
-This option can be used to Logout the User if they were already Logged in (not properly logged out) and now unable to login .
-    </ResponseField>
-  </Expandable>
-</ResponseField> */}
