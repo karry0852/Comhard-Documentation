@@ -71,7 +71,16 @@
             "guides/reset_password"
           ]
       },
-        "troubleshooting",
+      { "group": "Troubleshooting",
+      "pages":[
+        "troubleshooting/troubleshooting_overview",
+        "troubleshooting/login",
+        "troubleshooting/printing",
+        "troubleshooting/hanging",
+        "troubleshooting/data",
+        "troubleshooting/tally"
+      ]
+    },
         "integration",
         "security",
         "backups",
