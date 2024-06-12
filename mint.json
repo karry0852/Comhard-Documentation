@@ -38,7 +38,8 @@
             "getting-started/data_upload",
             "getting-started/license_reactivation",
             "getting-started/export_documents",
-            "getting-started/printing"
+            "getting-started/printing",
+            "getting-started/login"
           ]
         },
         { "group": "Guides",
