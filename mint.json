@@ -50,6 +50,7 @@
               "guides/admin_guide/user_management",
               "guides/admin_guide/live_status",
               "guides/admin_guide/app_management",
+              "guides/admin_guide/google_drive",
               {
                 "group":"Logs Management",
                 "pages":[
