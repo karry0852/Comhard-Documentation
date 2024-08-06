@@ -50,7 +50,6 @@
               "guides/admin_guide/user_management",
               "guides/admin_guide/live_status",
               "guides/admin_guide/app_management",
-              "guides/admin_guide/google_drive",
               {
                 "group":"Logs Management",
                 "pages":[
@@ -60,7 +59,14 @@
 
                   ]
               },
-              "guides/admin_guide/file_manager"
+              "guides/admin_guide/file_manager",
+              {
+                "group":"Google Drive",
+                "pages":[
+                  "guides/admin_guide/google_drive/setup_google_drive",
+                  "guides/admin_guide/google_drive/schedule_backup"
+                  ]
+              }
               ]
           },{
             "group":"User Guide",
