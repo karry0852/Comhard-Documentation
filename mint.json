@@ -90,7 +90,11 @@
         
       ]
     },
-        "Advance-security",
+        { "group": "Advance-security",
+      "pages":[
+        "Advance-security/Enable_advance_security" 
+      ]
+    },
         "integration",
         "security",
         "backups",
